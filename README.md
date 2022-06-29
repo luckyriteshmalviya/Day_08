@@ -28,7 +28,7 @@ console.log(sorting(arr));
 
 
   
-##To check if given number is prime or not  
+## To check if given number is prime or not  
   
 function isPrime(num) {  
   if (num === 2 || num === 1) {  
