@@ -2,9 +2,9 @@
 Solution of day_08 from 24 days GitHub question series.  
   
   
-// Sorting of a number array with or without inbuilt methods  
+## Sorting of a number array with or without inbuilt methods  
    
-// without inbuilt methods  
+### without inbuilt methods  
 let arr = [3, 6, 2, 4, 87, 23, 98];  
 function sorting(arr) {  
   for (let i = 0; i < arr.length; i++) {  
@@ -18,7 +18,7 @@ function sorting(arr) {
 }  
 console.log(sorting(arr));  
   
-// with inbuilt methods  
+### with inbuilt methods  
 // let arr = [6, 5, 2, 98, 55, 2, 7];  
 // function sorting(arr) {  
 //   arr.sort((a, b) => a - b);  
@@ -28,7 +28,7 @@ console.log(sorting(arr));
 
 
   
-// To check if given number is prime or not  
+##To check if given number is prime or not  
   
 function isPrime(num) {  
   if (num === 2 || num === 1) {  
